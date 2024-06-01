@@ -4,7 +4,7 @@
 https://sharla-gilbert-t1-a2-portfolio.netlify.app/
 
 ## GitHub repo:
-https://github.com/shgil1/T1-A2-Portfolio
+https://github.com/shgil1/T1-A2-Portfolio-Sharla-Gilbert
 
 ## Purpose
 This portfolio assignment is intended to showcase my skills, projects and experiences as an aspiring web developer. My aim is to not only showcase my technical skills but also my personality to potential employers.
