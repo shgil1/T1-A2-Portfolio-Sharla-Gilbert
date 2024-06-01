@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title -->
+    <title> Blog Posts </title>
+
+    <!-- Linking CSS stylesheets -->
+    <link rel="stylesheet" href="../styles/index.css"/>
+    <link rel="stylesheet" href="../styles/blog-posts.css">
+
+    <!-- Linking icon -->
+    <link rel="icon" href="../images/cherries.png">
+    
+
+    <!-- Poppins Font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+
+    <!-- Navbar section -->
+    <header>
+        <nav class="navbar">
+            <div class="navbar__container">
+
+                <!-- Logo allows users to go back to home page -->
+                <a href="../index.html" id="navbar__logo">
+                    <img id=sg-logo src="../images/logo_graham.png" alt="Sharla's logo"> SHARLA GILBERT
+                </a>
+                <!-- Pop out menu for mobile -->
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span> <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+
+                <ul class="navbar__menu">
+                     <li class="navbar__item">
+                    <a href="../index.html" class="navbar__links">Home </a>
+                    </li>
+
+                    <li class="navbar__item">
+                    <a href="./about.html" class="navbar__links">About </a>
+                    </li>
+
+                    <li class="navbar__item">
+                    <a href="#" class="navbar__links">Projects </a>
+                    </li>
+
+                    <li class="navbar__item">
+                    <a href="./blog.html" class="navbar__links">Blog </a>
+                     </li>
+
+                     <li class="navbar__btn"><a href="./contact.html" class="button">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+    <main id="section-bg">
+        <article>
+          <div class="page-heading">
+            <h1>
+              Stereotactic Radiation Therapy for Dogs
+            </h1>
+
+            <!-- timestamp for date posted -->
+            <p>Posted <time datetime="2024-5-28">28th May 2024</time></p>
+          </div>
+          <div class="main-content">
+            <div class="img-sec">
+              <img
+                src="/images/Graham.JPG"
+                alt="Picture of my dog"
+              />
+            </div>
+            <div class="blog-article">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti numquam hic similique voluptatem ullam suscipit eligendi, quisquam explicabo. Ipsum velit aut sequi necessitatibus modi, facere quibusdam odit alias dolorem possimus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam molestiae suscipit adipisci a repellat sapiente labore ab! Repellendus soluta nesciunt dolore! Dicta fugiat vero iste molestiae quod molestias omnis ipsam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, iste quidem? Nostrum quisquam culpa perspiciatis blanditiis amet voluptates vitae quis suscipit, ad laborum consequatur in nisi fuga doloremque minima voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde corrupti excepturi repellat beatae veritatis eaque pariatur, sunt eligendi nemo reprehenderit atque delectus, repudiandae dignissimos voluptas voluptates, a quae mollitia quo? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid nostrum quia voluptatem inventore accusantium natus blanditiis est dolore et unde quas tenetur iste ducimus corporis, fugit excepturi provident! Ipsum, corrupti?
+              </p>
+            </div>
+
+            <!-- button to return to blog page  -->
+            <a class="page-btn" href="/pages/blog.html">Back to Blog page</a>
+          </div>
+        </article>
+      </main>
+
+      <!-- JS for Nav Bar -->
+      <script src="../app.js"></script>
+
+      <!-- Footer -->
+    <footer>
+
+      <!-- social media links -->
+        <div class="footerContainer">
+            <div class="socialIcons">
+              <a href="https://github.com/shgil1"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.tiktok.com/@shumiio0?_t=8mnpa2cu38h&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+              <a href="https://www.linkedin.com/in/sharla-gilbert-03625430a/"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://www.facebook.com/sharlagilb/"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
+        
+        <!-- footer nav menu -->
+            <div class="footerNav">
+                <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./projects.html">Projects</a></li>
+                <li><a href="./blog.html">Blog</a></li>
+                <li><a href="./contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+          
+            <!-- copyright bar -->
+            <div class="footerBottom">
+                <p>Copyright &copy;2024 Designed by <span class="designer">Sharla Gilbert</span></p>
+            </div>
+        
+    </footer>
+    
+</body>
+</html>

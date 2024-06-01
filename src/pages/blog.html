@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalabe=no">
+    
+    <!-- Title -->
+    <title>My Blog</title>
+
+    <!-- Linking CSS stylesheets -->
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/blog.css">
+
+    <!-- Linking icon -->
+    <link rel="icon" href="../images/cherries.png">
+
+     <!-- FontAwesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <!-- Poppins Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NavBar Section -->
+    <header>
+        <nav class="navbar">
+            <div class="navbar__container">
+                <!-- Logo allows users to go back to home page -->
+                <a href="../index.html" id="navbar__logo">
+                    <img id=sg-logo src="../images/logo_graham.png" alt="Sharla's logo">
+                    SHARLA GILBERT
+                </a>
+                <!-- Pop out menu for mobile -->
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span> <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <a href="../index.html" class="navbar__links">Home </a>
+                    </li>
+               
+                    <li class="navbar__item">
+                        <a href="./about.html" class="navbar__links">About </a>
+                    </li>
+
+                    <li class="navbar__item">
+                        <a href="./projects.html" class="navbar__links">Projects </a>
+                    </li>
+                    
+                    <li class="navbar__item">
+                        <a href="#" class="navbar__links">Blog </a>
+                    </li>
+                    
+                    <li class="navbar__btn"><a href="./contact.html" class="button">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+</body>
+
+<!-- Main Section -->
+<main>
+    <div class="blog">
+        <div class="blog_title">
+            <h1>My Recent Blogs</h1>
+        </div>
+
+        <!-- container that holds all the blog posts -->
+        <div class="blog_wrapper">
+
+            <!-- Blog post 1 -->
+            <div class="blog_item">
+                <a href="#">
+                    <div class="bi_img"><img src="../images/paramedic.png" alt="Picture of Ambulance and Laptop"></div>
+                    <div class="bi_title">From Paramedicine to Coding</div>
+                    <div class="bi_content">What happens when you decide the career you chose isn't for you?</div>
+                    <div class="bi_date">30/5/2024 1730</div>
+
+                    <!-- read more button to open to seperate page -->
+                    <a href="./blog-1.html" class="btn">Read More</a>
+                </a>
+            </div>
+
+            <!-- Blog post 2 -->
+            <div class="blog_item">
+                <a href="#">
+                    <div class="bi_img"><img src="../images/brain.png" alt="Picture of robotic arm and brain MRI"></div>
+                    <div class="bi_title">Future of Tech in Healthcare</div>
+                    <div class="bi_content">How do we make tech more accessible in the public health sector?</div>
+                    <div class="bi_date">29/5/2024 1345</div>
+
+                    <!-- read more button to open to seperate page -->
+                    <a href="./blog-2.html" class="btn">Read More</a>
+                </a>
+            </div>
+
+            <!-- Blog post 3 -->
+            <div class="blog_item">
+                <a href="#">
+                    <div class="bi_img"><img src="../images/cancer.png" alt="Picture of my dog and a certificate of achievement"></div>
+                    <div class="bi_title">Stereotactic Radiation Therapy for Dogs</div>
+                    <div class="bi_content">One very brave boy's fight to battle aggressive cancer</div>
+                    <div class="bi_date">28/5/2024 0900</div>
+
+                    <!-- read more button to open to seperate page -->
+                    <a href="./blog-3.html" class="btn">Read More</a>
+                </a>
+            </div>
+
+            <!-- Blog post 4 -->
+            <div class="blog_item">
+                <a href="#">
+                    <div class="bi_img"><img src="../images/aggie.png" alt="Picture of my cat"></div>
+                    <div class="bi_title">Inside a Cat's Mind</div>
+                    <div class="bi_content">Is your cat secretly judging you?</div>
+                    <div class="bi_date">27/5/2024 1445</div>
+
+                    <!-- read more button to open to seperate page -->
+                    <a href="./blog-4.html" class="btn">Read More</a>
+                </a>
+            </div>
+
+            <!-- Blog post 5 -->
+            <div class="blog_item">
+                <a href="#">
+                    <div class="bi_img"><img src="../images/goodboy.png" alt="Picture of my dog underneath a banner"></div>
+                    <div class="bi_title">Good Boy Awards</div>
+                    <div class="bi_content">Winner of the Good Boy Awards for 8th year running</div>
+                    <div class="bi_date">26/5/2024 1230</div>
+
+                    <!-- read more button to open to seperate page -->
+                    <a href="./blog-5.html" class="btn">Read More</a>
+                </a>
+            </div>
+        </div>
+    </div>
+</main>
+
+<!-- JS for Nav Bar -->
+<script src="../app.js"></script>
+
+<!-- Footer -->
+<footer>
+
+    <!-- Social media links -->
+    <div class="footerContainer">
+        <div class="socialIcons">
+            <a href="https://github.com/shgil1"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.tiktok.com/@shumiio0?_t=8mnpa2cu38h&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://www.linkedin.com/in/sharla-gilbert-03625430a/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/sharlagilb/"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+    </div>
+    
+    <!-- footer nav menu  -->
+        <div class="footerNav">
+            <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./projects.html">Projects</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="./contact.html">Contact Me</a></li>
+            </ul>
+        </div>
+      
+        <!-- footer copyright bar -->
+        <div class="footerBottom">
+            <p>Copyright &copy;2024 Designed by <span class="designer">Sharla Gilbert</span></p>
+        </div>
+    
+</footer>
+
+</body>
+</html>

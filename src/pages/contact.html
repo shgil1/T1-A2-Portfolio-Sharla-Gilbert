@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title -->
+    <title> Contact Me </title>
+
+    <!-- Linking CSS stylesheets -->
+    <link rel="stylesheet" href="../styles/index.css"/>
+    <link rel="stylesheet" href="../styles/contact.css">
+
+    <!-- Linking icon -->
+    <link rel="icon" href="../images/cherries.png">
+
+
+     <!-- Poppins Font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+
+    <!-- Navbar section -->
+    <header>
+        <nav class="navbar">
+            <div class="navbar__container">
+
+                <!-- Logo allows users to go back to home page -->
+                <a href="../index.html" id="navbar__logo">
+                    <img id=sg-logo src="../images/logo_graham.png" alt="Sharla's logo"> SHARLA GILBERT
+                </a>
+                <!-- Pop out menu for mobile -->
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span> <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+
+                <ul class="navbar__menu">
+                     <li class="navbar__item">
+                    <a href="../index.html" class="navbar__links">Home </a>
+                    </li>
+
+                    <li class="navbar__item">
+                    <a href="./about.html" class="navbar__links">About </a>
+                    </li>
+
+                    <li class="navbar__item">
+                    <a href="./projects.html" class="navbar__links">Projects </a>
+                    </li>
+
+                    <li class="navbar__item">
+                    <a href="./blog.html" class="navbar__links">Blog </a>
+                     </li>
+
+                     <li class="navbar__btn"><a href="#" class="button">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+<main>
+<body>
+    <!-- main container for contact me section -->
+    <div class="container">
+        <div class="contact">
+            <h1>Contact Me</h1>
+
+            <!-- form with submit input to contact me -->
+            <form>
+                <label for="name">Your Name</label>
+                <input type="text" name="name" required>
+                <label for="email">Your Email</label>
+                <input type="email" name="email" required>
+                <label for="message">Message</label>
+                <textarea name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+
+        <!-- main container for my contact info section -->
+        <div class="content">
+            <h1>Sharla Gilbert</h1>
+            <p>Please don't hesitate to reach out if you have any questions, I'd love to hear from you!</p>
+            <h2>Contact Information</h2>
+            <p><strong>Email:</strong> 15648@coderacademy.edu.au</p>
+            <p><strong>Phone:</strong> 0412 345 678</p>
+            <p><strong>Address:</strong> 123 Example Drive, Anytown, Australia</p>
+        </div>
+    </div>
+</body>
+</main>
+
+<!-- JS for Nav Bar -->
+<script src="../app.js"></script>
+
+<!-- Footer -->
+<footer>
+
+    <!-- social media links -->
+    <div class="footerContainer">
+        <div class="socialIcons">
+            <a href="https://github.com/shgil1"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.tiktok.com/@shumiio0?_t=8mnpa2cu38h&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://www.linkedin.com/in/sharla-gilbert-03625430a/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/sharlagilb/"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+    </div>
+    
+    <!-- footer nav menu -->
+        <div class="footerNav">
+            <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./projects.html">Projects</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="#">Contact Me</a></li>
+            </ul>
+        </div>
+
+        <!-- footer copyright bar -->
+        <div class="footerBottom">
+            <p>Copyright &copy;2024 Designed by <span class="designer">Sharla Gilbert</span></p>
+        </div>
+    
+</footer>
+
+</body>
+</html>
+</html>

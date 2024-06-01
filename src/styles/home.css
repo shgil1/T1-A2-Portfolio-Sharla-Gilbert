@@ -1,0 +1,65 @@
+.home {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f2e9e4;
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0;
+}
+
+/* Hi Im Sharla Section */
+.home__content {
+    max-width: 800px;
+}
+
+.home__content h3{
+    font-size: 25px;
+    font-style: oblique;
+    color: #660708;
+    
+}
+
+.home__content h1 {
+    font-size: 62px;
+    line-height: 1.2;
+    margin-bottom: 3%;
+}
+
+.home__content p{
+    font-size: 18px;
+    margin: 25px 0 30px;
+    
+}
+
+/* Button to open resume */
+.button__box {
+    width: 345px;
+    display: flex;
+    gap: 2em;
+}
+
+.button__1{
+    padding: 15px 28px;
+    background-color: #885053;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.button__1:hover{
+    background-color: #b9a394;
+    border: 2px solid #dfbab0;
+}
+
+/* Image of me */
+.img__box img{
+    border-radius: 50%;
+    width: 550px;
+}
+

@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+body {
+    background-color: #f2e9e4;
+}
+
+/* main containter with info inside */
+.container{
+    width: 80%;
+    margin: 60px auto;
+    display: flex;
+    justify-content: center;
+}
+
+/* contact me section */
+.contact, .content{
+    width: 100%;
+    padding: 25px;
+}
+
+.contact h1{
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: #334139;
+}
+
+/* Contact info section */
+.content h1{
+    font-size: 35px;
+    margin-bottom: 15px;
+    color: #334139;
+}
+
+.content h2{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: #334139;
+}
+
+.content p{
+    color: #512136;
+    font-size: 17px;
+    line-height: 2.5;
+}
+
+/* Contact me submission box labels */
+label {
+    color: peru;
+    font-size: 17px;
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    border-color: darkgray;
+    outline: none;
+}
+
+/* Button to submit info */
+button{
+    font-size: 17px;
+    background-color: #885053;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #b9a394;
+    transition: all 0.3s ease;
+}
+
+
+/* For mobile phones */
+@media screen and (max-width:450px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+} 
+
+/* For Tablets */
+
+@media screen and (max-width:960px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+}    
+
+
+
