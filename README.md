@@ -39,6 +39,7 @@ This portfolio assignment is intended to showcase my skills, projects and experi
 
 Home Page:
 ![alt text](image.png)
+![alt text](src/Docs/wireframes/homepage.png)
 
 About Me Page:
 ![alt text](image-5.png)
