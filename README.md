@@ -38,7 +38,7 @@ This portfolio assignment is intended to showcase my skills, projects and experi
 - The following screenshots of the wireframes created for each page on different devices in the order they appear on the website:
 
 Home Page:
-![alt text](image-4.png)
+![alt text](image.png)
 
 About Me Page:
 ![alt text](image-5.png)
