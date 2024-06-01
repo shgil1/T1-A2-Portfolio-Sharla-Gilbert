@@ -38,30 +38,29 @@ This portfolio assignment is intended to showcase my skills, projects and experi
 - The following screenshots of the wireframes created for each page on different devices in the order they appear on the website:
 
 Home Page:
-![alt text](image.png)
-![alt text](src/Docs/wireframes/homepage.png)
+![alt text](src/images/wireframes/homepage.png)
 
 About Me Page:
-![alt text](image-5.png)
+![alt text](<src/images/wireframes/about me.png>)
 
 Projects Page:
-![alt text](image-6.png)
+![alt text](src/images/wireframes/projects.png)
 
 Blog Page:
-![alt text](image-8.png)
+![alt text](src/images/wireframes/blogpage.png)
 
 Blog Post Page: 
-![alt text](image-9.png)
+![alt text](src/images/wireframes/blogpage.png)
 - Each blog post will have the same layout including a button that allows users to navigate back to the main blog page after each post
 
 Contact Me Page:
-![alt text](image-7.png)
+![alt text](src/images/wireframes/contact.png)
 
 
 ## Sitemap
 - The following screenshot is of the sitemap I created when I first drafted my design for how the website layout will be:
 
-![alt text](image.png)
+![alt text](src/images/wireframes/sitemap.png)
 
 - There are 5 main pages of the site which include:
 1. Home page
